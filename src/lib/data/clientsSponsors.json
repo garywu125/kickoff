@@ -1,0 +1,36 @@
+{
+   
+   "person":{
+      "name":"Tom Jones",
+      "family":{
+         "mother":"Norah Jones",
+         "father":"Richard Jones",
+         "brother":"Howard Jones"
+      },
+      "age":25
+   },  
+   "talks":[
+      {
+         "speaker":"Blake Shakespeare",
+         "title":"Moving your React site to SvelteKit",
+         "date":"Friday, 6pm",
+         "abstract":"Learn from my experience in transitioning my site from React to SvelteKit: what I got right, what I would do differently going forward."
+      },
+      {
+         "speaker":"River Costa",
+         "title":"Building out a GraphQL API in Svelte using Prisma and Supabase",
+         "date":"Saturday, 7pm",
+         "abstract":"See just how easy it can be to write an API using a modern framework and tooling.  I take you through step by step from pnpm init to production ready product. The future is SvelteKit!"
+      }
+   ],
+   "ticketsPrices":[
+      {
+         "type":"regular",
+         "price":"USD 25"
+      },
+      {
+         "type":"vip",
+         "price":"USD 50"
+      }
+   ]
+}
