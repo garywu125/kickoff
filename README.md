@@ -1,4 +1,11 @@
 
+# +page.js 供應鏈角色
+- data: return { ... } , +page.svelte
+- eror: throw error(404,'msg'), +error.svelte
+- redirect: throw (303,'msg'), other +page.svelte
+
+# +page.server.js 供應鏈角色 + form endpoint
+
 # 參考
 - https://github.com/jochemvogel/ictmethods.nl
 
