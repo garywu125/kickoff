@@ -9,7 +9,12 @@ export function load({ params }) {
       content: '<p style="color:red;">Welcome to our blog. <b>Lorem ipsum</b> dolor sit amet...</p>'
     };
   }
-  if (params.slug === 'flee') {
+ 
+  if (params.slug === 'xxx') {
+    throw error(400, 'xxx route path not exist');
+  }  
+
+  if (params.slug === 'redirect') {
     throw redirect(301, '/xjson');
   }  
  
